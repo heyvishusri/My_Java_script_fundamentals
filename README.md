@@ -42,11 +42,3 @@ This repository serves as a resource for anyone looking to build a strong founda
 10. Asynchronous JavaScript (Promises, Async/Await)
 11. Debugging and Best Practices
 
----
-
-## Installation
-
-To clone this repository, use the following command:
-
-```bash
-git clone https://github.com/heyvishusri/javascript-fundamentals.git
