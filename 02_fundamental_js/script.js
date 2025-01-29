@@ -163,5 +163,39 @@ console.log(scoreDolphins, scoreKoalas);
 checkWinner(scoreDolphins, scoreKoalas);
 */
 
- 
+//Introduction to the Arrays:
+// ==========================
 
+const friend1 = 'Alok';
+const friend2 = 'Priya';
+const friend3 = 'Vishus';
+
+const friends = ['Alok', 'Priya', 'Vishus'];
+console.log(friends);
+
+const years = new Array(1991, 1984, 2008, 2020);
+console.log(years);
+
+console.log(years[0]);
+console.log(years.length);
+console.log(years[years.length - 1]);
+
+friends[1]='Sandeep';
+console.log(friends);
+
+const firstName = 'Vishwash';
+const newArrays =[firstName, 'is', 2035-2003, 'years', 'old', friends];
+console.log(newArrays);
+
+//Exercises
+const calcAge= function (birthYear){
+    return 2037 - birthYear;
+}
+const years1 = [1990, 1967, 2002, 2010, 2018];
+const age1 = calcAge(years1[0]);
+ //Age of the first element in the array
+ const age2 = calcAge(years1[years1.length - 1]);
+console.log(age1,age2);
+
+const ages = years1.map(calcAge); //calculate age of each element in the array
+console.log(ages);
