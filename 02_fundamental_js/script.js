@@ -166,6 +166,7 @@ checkWinner(scoreDolphins, scoreKoalas);
 //Introduction to the Arrays:
 // ==========================
 
+/*
 const friend1 = 'Alok';
 const friend2 = 'Priya';
 const friend3 = 'Vishus';
@@ -199,3 +200,4 @@ console.log(age1,age2);
 
 const ages = years1.map(calcAge); //calculate age of each element in the array
 console.log(ages);
+*/
