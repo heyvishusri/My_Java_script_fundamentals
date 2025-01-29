@@ -81,3 +81,45 @@ const yearRetirement = (birthYear, firstName) => {
 console.log(yearRetirement(2003, 'Vishwash'));
 */
 
+//Calling A function inside a function: Data Flow
+// ==========================
+
+/*
+ const cutPieces = function (fruit){
+    return fruit * 4;
+}
+const fruitProcessor = function (apple, orange){
+    const applePieces = cutPieces(apple);
+    const orangePieces = cutPieces(orange);
+
+    const juice = `Juice with ${applePieces} pieces of apple and ${orangePieces} pieces of orange.`;
+    return juice;
+}
+console.log(fruitProcessor(2,3));
+
+*/
+
+//Reviewing Functions
+// ==========================
+
+/*
+const calcAge = function (year){
+    return 2037 - year;
+}
+
+const yearUntilRetirement = function(birthyear,f_name){
+    const age = 2037 - birthyear;
+    const retirementAge = 70- age;
+    if(retirementAge >0){
+        console.log(`${f_name} retires in ${retirementAge} years.`);
+        return retirementAge;
+    }
+    else{
+        console.log(`${f_name} has already retired.🥳`);
+        return -1;
+    }
+    
+}
+console.log(yearUntilRetirement(2003,'Vishwash'));
+console.log(yearUntilRetirement(2004,'Alok'));
+*/
