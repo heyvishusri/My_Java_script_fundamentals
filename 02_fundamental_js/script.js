@@ -201,3 +201,36 @@ console.log(age1,age2);
 const ages = years1.map(calcAge); //calculate age of each element in the array
 console.log(ages);
 */
+
+//Basic Array Operationa 
+// ==========================
+/*
+const friends = ['Alok', 'Priya', 'Vishus'];
+const friendLenth= friends.push('Sandeep'); //Add element at the end of the array and return the length of the array
+console.log(friends);
+console.log(friendLenth);
+
+friends.unshift('John'); //Add element at the beginning of the array
+console.log(friends);
+
+friends.pop(); //Remove the last element from the array
+console.log(friends);
+const popped = friends.pop();
+console.log(popped);
+console.log(friends);
+
+friends.shift(); //Remove the first element from the array
+console.log(friends);
+
+const indexFind=friends.indexOf('Priya'); //Return the index of the element in the array
+console.log(indexFind);
+console.log(friends.indexOf('Alok'));
+
+console.log(friends.includes('Priya')); //Return true if the element is present in the array
+console.log(friends.includes('0'));
+
+if(friends.includes('Priya')){
+    console.log('You have a friend called Priya');
+}
+*/
+
