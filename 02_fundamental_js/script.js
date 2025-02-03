@@ -280,6 +280,7 @@ const jonasArray = [
     ['Michael', 'Peter', 'Steven']
 ];
 
+*/
 const jonas = {
 firstName: 'Jonas',
 lastName: 'Schmedtmann',
@@ -287,4 +288,12 @@ birthYear: 2037 - 1991,
 job: 'teacher',
 family: ['Michael', 'Peter', 'Steven']
 };
-*/
+
+
+console.log(jonas);
+console.log(jonas.lastName); //firstName is the key and Jonas is the value
+console.log(jonas['lastName']);   //[lastName] is the key and Jonas is the value
+console.log(jonas['birthYear']); // First way to access the element in the object
+
+const nameKey = 'Name';
+console.log(jonas['last' + nameKey]);//Second way to access the element in the object
