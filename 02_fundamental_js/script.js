@@ -263,4 +263,28 @@ console.log(bills, tips, total);
 */
 
 
+//Objects
+// ==========================
 
+
+//Array vs OBject : 
+//Array: Order matters in the array and the index is used to access the element
+//Object: Order doesn't matter in the object and the key is used to access the element
+
+/*
+const jonasArray = [
+    'Jonas',
+    'Schmedtmann',
+    2037 - 1991,
+    'teacher',
+    ['Michael', 'Peter', 'Steven']
+];
+
+const jonas = {
+firstName: 'Jonas',
+lastName: 'Schmedtmann',
+birthYear: 2037 - 1991,
+job: 'teacher',
+family: ['Michael', 'Peter', 'Steven']
+};
+*/
