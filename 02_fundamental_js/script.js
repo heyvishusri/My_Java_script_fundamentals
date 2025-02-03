@@ -280,7 +280,7 @@ const jonasArray = [
     ['Michael', 'Peter', 'Steven']
 ];
 
-*/
+
 const jonas = {
 firstName: 'Jonas',
 lastName: 'Schmedtmann',
@@ -297,3 +297,22 @@ console.log(jonas['birthYear']); // First way to access the element in the objec
 
 const nameKey = 'Name';
 console.log(jonas['last' + nameKey]);//Second way to access the element in the object
+
+const interestedIn = prompt('What do you want to know about Jonas? Choose between firstName, lastName, birthYear, job, and family');
+
+if(jonas[interestedIn]){
+    console.log(jonas[interestedIn]);
+}else{
+    console.log('Invalid input!  Choose between firstName, lastName, birthYear, job, and family');
+}
+
+jonas.location = 'India';
+jonas['twitter'] = '@vishwash9931';
+console.log(jonas);
+
+//challenge
+//Jonas has three friends, and his best friend is called Michael.
+console.log(`${jonas.firstName} has ${jonas.family.length} friends, and his best friend is called ${jonas.family[0]}.`);    //Jonas has 3 friends, and his best friend is called Michael.
+
+*/
+
