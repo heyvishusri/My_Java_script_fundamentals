@@ -409,3 +409,28 @@ if (mark.bmi > john.bmi) {
 }
 
 */
+
+
+//iteration : The Loop
+// ==========================
+// for (let rep = 1; rep<=10; rep++){
+//     console.log(`Lifting weights repetition ${rep}🏋️‍♂️`);
+// };
+
+
+
+
+// for (let rep = 1; rep<=10; rep++){
+//     if(rep%2===0){
+//         console.log(`Lifting weights repetition ${rep}🏋️‍♂️`);
+//     }else if(rep%2===1){
+//         console.log(`Running on the treadmill repetition ${rep}🏃‍♂️`);
+       
+//     }else{
+//         console.log(`Resting ${rep} minute`);
+//     }
+
+//     // console.log(`Lifting weights repetition ${rep}🏋️‍♂️`);
+// };
+
+
