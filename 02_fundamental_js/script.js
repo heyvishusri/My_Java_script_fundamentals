@@ -433,4 +433,51 @@ if (mark.bmi > john.bmi) {
 //     // console.log(`Lifting weights repetition ${rep}🏋️‍♂️`);
 // };
 
+//47. Looping Arrays, breaking and continuing
+/*
+const jonas = [
+  'Jonas',
+  'Schmedtmann',
+  2037 - 1991,
+  'teacher',
+  ['Michael', 'Peter', 'Steven']
+];
 
+const types = [];
+for(let i=0; i < jonas.length; i++){
+
+  //Reading from jonas array
+  console.log(jonas[i], typeof jonas[i]); 
+
+  //filling types array
+  // types[i] = typeof jonas[i]; 
+  types.push(typeof jonas[i]);
+}  
+
+console.log(types);
+*/
+/*
+const multiVariables = ["ram",2,true,"vishu",5,7,false,"alok"];
+const newVariables =[];
+for (let i=0; i<multiVariables.length; i++){
+  if(typeof multiVariables[i] == "string"){
+    newVariables.push(typeof multiVariables[i]);
+
+  }
+}
+console.log('This is typeof my variable: ',newVariables);
+*/
+
+//continue and break
+const forContinue = ["dog",1,2,3,'alok','vishu',5,7,false,"alok",5];
+console.log('---ONLY STRING ---');
+for (let i = 0; i<forContinue.length; i++){
+  if(typeof forContinue[i] !== 'string') continue;
+  console.log(forContinue[i], typeof forContinue[i]);
+}
+
+console.log('---BREAK WITH NUMBER ---');
+for (let i = 0; i<forContinue.length; i++){
+  if(typeof forContinue[i] === 'number') break;
+  console.log(forContinue[i], typeof forContinue[i]);
+}
