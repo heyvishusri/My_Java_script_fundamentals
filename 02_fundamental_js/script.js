@@ -467,7 +467,7 @@ for (let i=0; i<multiVariables.length; i++){
 }
 console.log('This is typeof my variable: ',newVariables);
 */
-
+/*
 //continue and break
 const forContinue = ["dog",1,2,3,'alok','vishu',5,7,false,"alok",5];
 console.log('---ONLY STRING ---');
@@ -481,3 +481,5 @@ for (let i = 0; i<forContinue.length; i++){
   if(typeof forContinue[i] === 'number') break;
   console.log(forContinue[i], typeof forContinue[i]);
 }
+  */
+
