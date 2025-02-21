@@ -513,4 +513,32 @@ for (let speed = 1; speed < 4; speed++ ){
 }
  
 */
+
+
 //49. The while Loop
+/*
+let rep = 1;
+while(rep<=10){
+  console.log(`Lifting weight repetition: ${rep}🏋🏻`);
+  rep++;
+}
+*/
+
+
+/*
+let dice = Math.trunc(Math.random() * 6) + 1; 
+// Math.random() generates a random number between 0 (inclusive) and 1 (exclusive).
+// Multiplying by 6 scales the value to be between 0 and 5.999.
+// Math.trunc() removes the decimal part, ensuring values between 0 and 5.
+// Adding 1 shifts the range to 1 to 6, mimicking a dice roll.
+
+while(dice !== 6){
+  console.log(`You rolled a ${dice}`);
+  dice = Math.trunc(Math.random() * 6) + 1;
+  if(dice !== 6){
+    console.log('Not a 6, rolling again...');
+  }
+}
+  */
+
+
