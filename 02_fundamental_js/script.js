@@ -483,3 +483,34 @@ for (let i = 0; i<forContinue.length; i++){
 }
   */
 
+//48. Looping Backwards and loops in loops
+//Looping Backwards
+/*
+const backLoop = [
+  'Jonas',
+  'Schmedtmann',
+  2037 - 1991,
+  'teacher',
+  ['Michael', 'Peter', 'Steven']
+];
+//0,1,2,3.....
+//4,3,.......
+
+for (let i=backLoop.length-1; i>=0; i--){
+  console.log(i,  backLoop[i]); //i is counter object 
+}
+*/
+
+
+//Nested Loops
+/*
+for (let speed = 1; speed < 4; speed++ ){
+  console.log(`--- Speed ${speed} ---`);
+
+  for (let distance = 1; distance < 6; distance++ ){
+    console.log(`Speed ${speed}: Walking ${distance} km`);
+  }
+}
+ 
+*/
+//49. The while Loop
