@@ -36,3 +36,28 @@
 // console.log(foo);
 // console.log(variable);
 // var variable = 30;
+
+// for (var i = 0; i < 10; i++) {
+//   //if var i= 0 then output 10 times 10
+//   //if let i=0 then output 0 to 9
+//   setTimeout(() => console.log(i), 0); //0 milliseconds
+//   // console.log("Hello");
+// }
+
+// const vishu = {
+//   name: "Vishwajeet",
+//   sayName: function () {
+//     console.log(this.name);
+//   },
+// };
+// setTimeout(() => (vishu.sayName(), 3 * 1000));
+// // vishu.sayName();
+
+const obj = {
+  height: 10,
+};
+console.log(obj.height);
+delete obj.height;
+console.log(obj.height);
+obj.height = 20;
+console.log(obj.height);
