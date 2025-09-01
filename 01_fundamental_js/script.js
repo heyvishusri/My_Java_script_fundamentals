@@ -144,7 +144,6 @@ else{
     }
 */
 
-
 // console.log('I am \n\
 // learning\n\
 // JavaScript');
@@ -191,9 +190,6 @@ console.log(2+3+4+'5')
 console.log(2+3+'5'+6)
 console.log('2' + 3 + 4 + '5')
 */
-
-
-
 
 /*
 let x=10;
@@ -421,7 +417,6 @@ const age= 25;
 console.log(`My name is ${me} and I am ${age} years old.`);
 */
 
-
 //Conditional Operator (Ternary operator)....
 // const age=23;
 // age>=18? console.log('You are Eligible.'):
@@ -462,7 +457,7 @@ HINT: To calculate 20% of a value, simply multiply it by 20/100 = 0.2
 
 HINT 2: Value X is between 50 and 300, if it's >= 50 && <= 300 😉  */
 
-const bill = 275;
-const tip= bill<=300 && bill >=50 ? bill*0.15 : bill*0.2;
-const total = bill + tip;
-console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${total}`);
+// const bill = 275;
+// const tip= bill<=300 && bill >=50 ? bill*0.15 : bill*0.2;
+// const total = bill + tip;
+// console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${total}`);
